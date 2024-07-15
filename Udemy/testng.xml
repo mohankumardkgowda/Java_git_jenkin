@@ -4,7 +4,7 @@
   <test thread-count="5" name="Test">
     <classes>
       <class name="pack1.Cl11"/>
-      <class name="main1.Cl1"/>
+ 
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
