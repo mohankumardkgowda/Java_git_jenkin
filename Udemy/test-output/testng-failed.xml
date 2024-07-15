@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="pack1.Cl1">
+      <class name="pack1.Cl11">
         <methods>
           <include name="tezt"/>
           <include name="beforetezt"/>
         </methods>
-      </class> <!-- pack1.Cl1 -->
+      </class> <!-- pack1.Cl11 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -2,23 +2,55 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-07-15T16:51:52 IST" name="Default suite" finished-at="2024-07-15T16:52:08 IST" duration-ms="16287">
+  <suite started-at="2024-07-15T20:58:37 IST" name="Default suite" finished-at="2024-07-15T20:58:59 IST" duration-ms="22046">
     <groups>
     </groups>
-    <test started-at="2024-07-15T16:51:52 IST" name="Default test" finished-at="2024-07-15T16:52:08 IST" duration-ms="16287">
-      <class name="pack1.Cl1">
-        <test-method is-config="true" signature="beforetezt()[pri:0, instance:pack1.Cl1@2a798d51]" started-at="2024-07-15T16:51:52 IST" name="beforetezt" finished-at="2024-07-15T16:52:06 IST" duration-ms="14021" status="PASS">
+    <test started-at="2024-07-15T20:58:37 IST" name="Default test" finished-at="2024-07-15T20:58:59 IST" duration-ms="22046">
+      <class name="pack1.Cl11">
+        <test-method is-config="true" signature="beforetezt()[pri:0, instance:pack1.Cl11@7f3b84b8]" started-at="2024-07-15T20:58:37 IST" name="beforetezt" finished-at="2024-07-15T20:58:52 IST" duration-ms="15800" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforetezt -->
-        <test-method signature="tezt()[pri:0, instance:pack1.Cl1@2a798d51]" started-at="2024-07-15T16:52:06 IST" name="tezt" finished-at="2024-07-15T16:52:08 IST" duration-ms="2232" status="FAIL">
-          <exception class="java.lang.NullPointerException">
+        <test-method signature="tezt()[pri:0, instance:pack1.Cl11@7f3b84b8]" started-at="2024-07-15T20:58:53 IST" name="tezt" finished-at="2024-07-15T20:58:59 IST" duration-ms="6149" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
             <message>
-              <![CDATA[Cannot invoke "String.length()" because "url" is null]]>
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.127)
+Build info: version: '4.19.1', revision: 'abe0ee07dc'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7a6a393a86d38839fa5db4fe73aef461, getElementAttribute {name=href, id=f.9A56123EBCB1F630D309C708FC1AE8A4.d.3475FFF1B2A98702E9FFE3C26D529ACB.e.173}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\mohank\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63081}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63081/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (7a6a393a86d38839fa5db4fe73aef461)] -> tag name: a]
+Session ID: 7a6a393a86d38839fa5db4fe73aef461]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "String.length()" because "url" is null
-at pack1.Cl1.tezt(Cl1.java:19)
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.127)
+Build info: version: '4.19.1', revision: 'abe0ee07dc'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7a6a393a86d38839fa5db4fe73aef461, getElementAttribute {name=href, id=f.9A56123EBCB1F630D309C708FC1AE8A4.d.3475FFF1B2A98702E9FFE3C26D529ACB.e.173}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\mohank\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63081}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63081/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (7a6a393a86d38839fa5db4fe73aef461)] -> tag name: a]
+Session ID: 7a6a393a86d38839fa5db4fe73aef461
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.getAttribute(RemoteWebElement.java:149)
+at pack1.Cl11.tezt(Cl11.java:18)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -49,11 +81,11 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tezt -->
-      </class> <!-- pack1.Cl1 -->
+      </class> <!-- pack1.Cl11 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
