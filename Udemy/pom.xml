@@ -2,9 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>Udemy</groupId>
   <artifactId>Udemy</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
-  
-  <dependencies><dependency>
+  <version>0.0.1-SNAPSHOT</version><dependencies><dependency>
     <groupId>org.testng</groupId>
     <artifactId>testng</artifactId>
     <version>7.8.0</version>
