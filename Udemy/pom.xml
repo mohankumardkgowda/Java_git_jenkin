@@ -5,7 +5,29 @@
   <version>0.0.1-SNAPSHOT</version>
   
   
-  
+  <build>
+	<pluginManagement>
+  <plugins>
+	<plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-surefire-plugin</artifactId>
+          <version>3.2.5</version>
+           <configuration>
+			<suiteXMLFiles>
+            <suiteXMLFile>testng.xml</suiteXMLFile>
+            </suiteXMLFiles>
+          </configuration>
+        </plugin>
+        
+         <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-compiler-plugin</artifactId>
+          <version>3.13.0</version>
+        
+        </plugin>
+  </plugins>
+  </pluginManagement>
+  </build>
   
 <dependencies>
 	<!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
