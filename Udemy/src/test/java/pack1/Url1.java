@@ -6,7 +6,7 @@ import org.testng.annotations.BeforeTest;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class Url {
+public class Url1 {
 	
 	WebDriver driver;
 	
