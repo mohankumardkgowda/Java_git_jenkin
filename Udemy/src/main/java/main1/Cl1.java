@@ -1,4 +1,4 @@
-package pack1;
+package main1;
 
 import java.io.IOException;
 import java.util.List;

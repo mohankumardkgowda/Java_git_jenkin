@@ -1,4 +1,4 @@
-package pack1;
+package main1;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -8,7 +8,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class Url {
 	
-	WebDriver driver;
+	protected WebDriver driver;
 	
 
 	@BeforeTest()

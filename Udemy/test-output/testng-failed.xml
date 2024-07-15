@@ -9,6 +9,12 @@
           <include name="beforetezt"/>
         </methods>
       </class> <!-- pack1.Cl11 -->
+      <class name="pack1.Cl1">
+        <methods>
+          <include name="tezt"/>
+          <include name="beforetezt"/>
+        </methods>
+      </class> <!-- pack1.Cl1 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
