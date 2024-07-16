@@ -9,11 +9,9 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 
-<<<<<<< HEAD
 
 
-=======
->>>>>>> branch 'master' of https://github.com/mohankumardkgowda/Java_git_jenkin.git
+
 public class Cl11 extends Url1{
 @Test
 public void tezt() {
