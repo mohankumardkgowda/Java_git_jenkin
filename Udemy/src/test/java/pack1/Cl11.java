@@ -9,9 +9,9 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 
-import main1.Url;
 
-public class Cl11 extends Url{
+
+public class Cl11 extends Url1{
 @Test
 public void tezt() {
 	driver.findElement(By.xpath("//a[@href=\"/About-QII\"]")).click();
