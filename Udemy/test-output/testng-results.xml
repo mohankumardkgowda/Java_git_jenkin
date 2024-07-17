@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-07-16T10:30:29 IST" name="Suite" finished-at="2024-07-16T10:30:58 IST" duration-ms="28735">
+  <suite started-at="2024-07-17T12:07:18 IST" name="Default suite" finished-at="2024-07-17T12:07:35 IST" duration-ms="17280">
     <groups>
     </groups>
-    <test started-at="2024-07-16T10:30:29 IST" name="Test" finished-at="2024-07-16T10:30:58 IST" duration-ms="28735">
+    <test started-at="2024-07-17T12:07:18 IST" name="Default test" finished-at="2024-07-17T12:07:35 IST" duration-ms="17280">
       <class name="pack1.Cl11">
-        <test-method is-config="true" signature="beforetezt()[pri:0, instance:pack1.Cl11@4f83df68]" started-at="2024-07-16T10:30:29 IST" name="beforetezt" finished-at="2024-07-16T10:30:53 IST" duration-ms="23756" status="PASS">
+        <test-method is-config="true" signature="beforetezt()[pri:0, instance:pack1.Cl11@29e495ff]" started-at="2024-07-17T12:07:18 IST" name="beforetezt" finished-at="2024-07-17T12:07:28 IST" duration-ms="10231" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforetezt -->
-        <test-method signature="tezt()[pri:0, instance:pack1.Cl11@4f83df68]" started-at="2024-07-16T10:30:53 IST" name="tezt" finished-at="2024-07-16T10:30:58 IST" duration-ms="4922" status="PASS">
+        <test-method signature="tezt()[pri:0, instance:pack1.Cl11@29e495ff]" started-at="2024-07-17T12:07:28 IST" name="tezt" finished-at="2024-07-17T12:07:35 IST" duration-ms="6988" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tezt -->
       </class> <!-- pack1.Cl11 -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
