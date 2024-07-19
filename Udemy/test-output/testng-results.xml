@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-07-19T13:26:59 IST" name="Default suite" finished-at="2024-07-19T13:27:36 IST" duration-ms="37457">
+  <suite started-at="2024-07-19T16:24:17 IST" name="Default suite" finished-at="2024-07-19T16:25:06 IST" duration-ms="49001">
     <groups>
     </groups>
-    <test started-at="2024-07-19T13:26:59 IST" name="Default test" finished-at="2024-07-19T13:27:36 IST" duration-ms="37457">
+    <test started-at="2024-07-19T16:24:17 IST" name="Default test" finished-at="2024-07-19T16:25:06 IST" duration-ms="49001">
       <class name="pack1.Link">
-        <test-method is-config="true" signature="beforetezt()[pri:0, instance:pack1.Link@10feca44]" started-at="2024-07-19T13:26:59 IST" name="beforetezt" finished-at="2024-07-19T13:27:10 IST" duration-ms="11038" status="PASS">
+        <test-method is-config="true" signature="beforetezt()[pri:0, instance:pack1.Link@a2431d0]" started-at="2024-07-19T16:24:17 IST" name="beforetezt" finished-at="2024-07-19T16:24:31 IST" duration-ms="13558" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforetezt -->
-        <test-method signature="link()[pri:0, instance:pack1.Link@10feca44]" started-at="2024-07-19T13:27:10 IST" name="link" finished-at="2024-07-19T13:27:36 IST" duration-ms="26353" status="PASS">
+        <test-method signature="link()[pri:0, instance:pack1.Link@a2431d0]" started-at="2024-07-19T16:24:31 IST" name="link" finished-at="2024-07-19T16:25:06 IST" duration-ms="35413" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- link -->
