@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="pack1.Mouze_action">
+      <class name="pack1.Link">
         <methods>
+          <include name="link"/>
           <include name="beforetezt"/>
-          <include name="mouze"/>
         </methods>
-      </class> <!-- pack1.Mouze_action -->
+      </class> <!-- pack1.Link -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
