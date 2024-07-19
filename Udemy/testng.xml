@@ -4,6 +4,8 @@
   <test thread-count="5" name="Test">
     <classes>
       <class name="pack1.Cl11"/>
+      <class name="pack1.Mouze_action"/>
+      <class name="pack1.Link"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
