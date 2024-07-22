@@ -39,6 +39,10 @@ public class Reading_data_from_excel {
 	                    }
 	                }
 	                System.out.println();
+	                
+	                
+	                
+	        
 	            }
 	        } catch (IOException e) {
 	            e.printStackTrace();
