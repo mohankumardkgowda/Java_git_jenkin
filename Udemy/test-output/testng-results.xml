@@ -2,20 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-07-19T16:24:17 IST" name="Default suite" finished-at="2024-07-19T16:25:06 IST" duration-ms="49001">
+  <suite started-at="2024-07-22T13:08:23 IST" name="Default suite" finished-at="2024-07-22T13:08:24 IST" duration-ms="1037">
     <groups>
     </groups>
-    <test started-at="2024-07-19T16:24:17 IST" name="Default test" finished-at="2024-07-19T16:25:06 IST" duration-ms="49001">
-      <class name="pack1.Link">
-        <test-method is-config="true" signature="beforetezt()[pri:0, instance:pack1.Link@a2431d0]" started-at="2024-07-19T16:24:17 IST" name="beforetezt" finished-at="2024-07-19T16:24:31 IST" duration-ms="13558" status="PASS">
+    <test started-at="2024-07-22T13:08:23 IST" name="Default test" finished-at="2024-07-22T13:08:24 IST" duration-ms="1037">
+      <class name="pack1.Reading_data_from_excel">
+        <test-method signature="excel()[pri:0, instance:pack1.Reading_data_from_excel@49ec71f8]" started-at="2024-07-22T13:08:23 IST" name="excel" finished-at="2024-07-22T13:08:24 IST" duration-ms="997" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforetezt -->
-        <test-method signature="link()[pri:0, instance:pack1.Link@a2431d0]" started-at="2024-07-19T16:24:31 IST" name="link" finished-at="2024-07-19T16:25:06 IST" duration-ms="35413" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- link -->
-      </class> <!-- pack1.Link -->
+        </test-method> <!-- excel -->
+      </class> <!-- pack1.Reading_data_from_excel -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
