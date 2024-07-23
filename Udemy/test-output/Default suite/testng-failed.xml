@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="pack1.Link">
+      <class name="pack1.Reading_data_from_excel">
         <methods>
-          <include name="link"/>
           <include name="beforetezt"/>
+          <include name="excel"/>
         </methods>
-      </class> <!-- pack1.Link -->
+      </class> <!-- pack1.Reading_data_from_excel -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
