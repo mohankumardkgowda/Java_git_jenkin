@@ -52,7 +52,6 @@ try (FileInputStream fileInputStream = new FileInputStream(excelFilePath);
                usernameField.sendKeys(username);
                passwordField.sendKeys(password);
 
-               
                submit.click();
                Thread.sleep(5000);
            }
